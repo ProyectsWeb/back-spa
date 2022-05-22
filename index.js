@@ -58,7 +58,7 @@ app.get("/variables", (reques, response) =>{
 /* CONEXION A LA BASE DE DATOS */
 let Schema = mongoose.Schema;
 
-const cadenaConexion = "mongodb://localhost/Personas";
+const cadenaConexion = "mongodb://mongodb+srv://adminmdb:BENDISEME12@clustermongodb.gel0k.mongodb.net/Personas";
 
  mongoose.connect(cadenaConexion, {
      useNewUrlParser: true,    
